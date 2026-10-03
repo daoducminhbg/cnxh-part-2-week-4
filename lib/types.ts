@@ -57,11 +57,15 @@ export interface LifelinesConfig {
 export type SfxType = 
   | 'gavel' 
   | 'clock_tick' 
+  | 'countdown'
   | 'time_up' 
   | 'victory' 
   | 'alert_wrong' 
   | 'applause' 
   | 'drum_roll' 
+  | 'audience_vote'
+  | 'voter_speaking'
+  | 'lets_play'
   | 'none';
 
 export interface SfxEvent {

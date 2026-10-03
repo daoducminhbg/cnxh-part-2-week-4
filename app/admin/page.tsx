@@ -528,14 +528,19 @@ export default function PresidiumAdminPage() {
             </h3>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
             {[
               { label: 'Gõ búa khai mạc', sfx: 'gavel', color: 'from-amber-600 to-amber-700' },
               { label: 'Tíc tắc hồi hộp', sfx: 'clock_tick', color: 'from-gray-700 to-gray-800' },
-              { label: 'Hết giờ (Gong)', sfx: 'time_up', color: 'from-red-800 to-red-950' },
-              { label: 'Đáp án đúng', sfx: 'victory', color: 'from-emerald-600 to-emerald-800' },
+              { label: 'Đếm ngược cao trào', sfx: 'countdown', color: 'from-purple-800 to-purple-950' },
+              { label: 'Hết giờ (Buzzer)', sfx: 'time_up', color: 'from-red-800 to-red-950' },
+              { label: 'Đáp án đúng (Fanfare)', sfx: 'victory', color: 'from-emerald-600 to-emerald-800' },
               { label: 'Cảnh báo sai', sfx: 'alert_wrong', color: 'from-red-600 to-red-700' },
               { label: 'Vỗ tay tán thành', sfx: 'applause', color: 'from-amber-500 to-amber-600' },
+              { label: 'Trống dồn hồi hộp', sfx: 'drum_roll', color: 'from-yellow-700 to-amber-900' },
+              { label: 'Nhạc biểu quyết cử tri', sfx: 'audience_vote', color: 'from-blue-700 to-indigo-900' },
+              { label: 'Nhạc phát biểu cử tri', sfx: 'voter_speaking', color: 'from-teal-700 to-cyan-900' },
+              { label: 'Nhạc mở màn kỳ họp', sfx: 'lets_play', color: 'from-rose-700 to-rose-900' },
             ].map((btn) => (
               <button
                 key={btn.sfx}
@@ -545,6 +550,12 @@ export default function PresidiumAdminPage() {
                 {btn.label}
               </button>
             ))}
+            <button
+              onClick={() => soundManager.stopAll()}
+              className="p-3 rounded-xl bg-gradient-to-br from-gray-800 to-gray-950 text-gray-300 text-xs font-bold text-center border border-gray-700 hover:text-white hover:border-red-500/50 shadow-md transition-all active:scale-95 cursor-pointer"
+            >
+              Dừng tất cả âm
+            </button>
           </div>
         </div>
       </div>

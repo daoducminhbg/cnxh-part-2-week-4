@@ -276,7 +276,7 @@ export class RealtimeParliamentHub {
           remaining: Math.max(0, this.state.lifelines.delegateVoter.remaining - 1),
         },
       },
-      sfxEvent: { type: 'gavel', timestamp: Date.now() },
+      sfxEvent: { type: 'voter_speaking', timestamp: Date.now() },
     });
 
     this.voterSpeechTimer = setInterval(() => {
@@ -371,7 +371,7 @@ export class RealtimeParliamentHub {
         counts: { A: 0, B: 0, C: 0, D: 0 },
         percentages: { A: 0, B: 0, C: 0, D: 0 },
       },
-      sfxEvent: { type: 'gavel', timestamp: Date.now() },
+      sfxEvent: { type: 'audience_vote', timestamp: Date.now() },
     });
 
     this.referendumTimer = setInterval(() => {
