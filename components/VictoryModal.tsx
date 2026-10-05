@@ -110,7 +110,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
             <h4 className="text-[11px] font-mono uppercase font-bold text-gray-400 mb-1">
               Phân tích học thuật chuyên sâu:
             </h4>
-            <p>{scenario.academicExplanation}</p>
+            <p className="whitespace-pre-line leading-relaxed">{scenario.academicExplanation}</p>
           </div>
 
           {/* Legal / Party Citation */}

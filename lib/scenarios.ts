@@ -4,89 +4,89 @@ export const DEFAULT_SCENARIOS: Scenario[] = [
   {
     id: 'scenario-1',
     code: 'HỒ SƠ NGHỊ TRƯỜNG SỐ 01',
-    title: 'Kinh Tế Tư Nhân & Bản Chất Kinh Tế Của Nền Dân Chủ Xã Hội Chủ Nghĩa',
+    title: 'Vấn Đề Kinh Tế Tư Nhân Và Dân Chủ Trong Kinh Tế',
     topic: 'Chương 4: Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa',
     caseBackground: 
-      'Trước yêu cầu cải cách thể chế kinh tế trong thời kỳ quá độ lên chủ nghĩa xã hội, Hội đồng Nhân dân tỉnh X tiếp nhận kiến nghị về chính sách phát triển kinh tế tư nhân. Một nhóm ý kiến đề xuất siết chặt rào cản hành chính nhằm bảo đảm ưu thế tuyệt đối của kinh tế nhà nước ngay lập tức.',
+      'Tại một địa phương, một tập đoàn kinh tế tư nhân đang phát triển rất mạnh mẽ, đóng góp lớn vào ngân sách và giải quyết việc làm. Tuy nhiên, trong công tác quản lý, có hai luồng quan điểm trái chiều tham mưu cho chính quyền:',
     question: 
-      'Để bảo đảm đúng bản chất kinh tế của nền Dân chủ Xã hội chủ nghĩa và đường lối Đại hội XIII của Đảng, Đại biểu Quốc hội cần quyết nghị phương án nào?',
+      'Đại biểu hãy xem xét hai luồng quan điểm tham mưu và quyết nghị phương án phù hợp với việc phát huy dân chủ trong kinh tế:',
     options: [
       {
         id: 'A',
         label: 'PHƯƠNG ÁN A',
-        text: 'Thiết lập rào cản hành chính, thu hẹp quy mô kinh tế tư nhân để bảo toàn bản chất công hữu tuyệt đối.',
-        subtext: 'Quan điểm thiên lệch về chỉ huy hành chính cơ học, bỏ qua quy luật khách quan của thời kỳ quá độ.'
+        text: 'Cần thiết lập các rào cản hành chính để thu hẹp quy mô của doanh nghiệp tư nhân này, vì nếu để kinh tế tư nhân phát triển quá mạnh sẽ làm phai nhạt bản chất kinh tế của nền dân chủ xã hội chủ nghĩa.',
+        subtext: 'Thu hẹp quy mô tư nhân vì lo ngại phai nhạt bản chất kinh tế XHCN'
       },
       {
         id: 'B',
         label: 'PHƯƠNG ÁN B',
-        text: 'Tiếp tục hoàn thiện hành lang pháp lý, bảo hộ quyền sở hữu và lợi ích hợp pháp của kinh tế tư nhân; khẳng định kinh tế tư nhân là một động lực quan trọng của nền kinh tế thị trường định hướng XHCN.',
-        subtext: 'Bảo đảm quyền dân chủ trong kinh tế, giải phóng sức sản xuất dưới sự điều tiết của Nhà nước pháp quyền XHCN.'
+        text: 'Cần tiếp tục tạo hành lang pháp lý thuận lợi, bảo hộ quyền lợi hợp pháp của doanh nghiệp tư nhân này để họ phát triển, bởi đó chính là sự biểu hiện của việc phát huy dân chủ trong lĩnh vực kinh tế.',
+        subtext: 'Bảo hộ quyền lợi hợp pháp, tiếp tục phát huy dân chủ trong kinh tế'
       }
     ],
     correctOptionId: 'B',
-    doctrineQuote: '“Kinh tế tư nhân là một động lực quan trọng của nền kinh tế. Khuyến khích, tạo điều kiện thuận lợi để kinh tế tư nhân phát triển nhanh, bền vững, đa dạng.”',
-    constitutionalCitation: 'Văn kiện Đại hội đại biểu toàn quốc lần thứ XIII & Hiến pháp năm 2013 (Điều 51)',
+    doctrineQuote: '“Thể chế hóa quan điểm của Đảng về phát triển đa dạng các hình thức sở hữu, thành phần kinh tế, loại hình doanh nghiệp, bảo hộ các quyền và lợi ích hợp pháp của chủ sở hữu tài sản thuộc các hình thức sở hữu.”',
+    constitutionalCitation: 'Văn kiện Đại hội XIII của Đảng & Giáo trình CNXHKH',
     academicExplanation: 
-      'Bản chất kinh tế của nền dân chủ XHCN trong thời kỳ quá độ không đồng nhất với việc triệt tiêu cơ học các thành phần kinh tế phi công hữu. Ngược lại, dân chủ trong lĩnh vực kinh tế thể hiện ở việc bảo đảm quyền tự do kinh doanh theo pháp luật, giải phóng mọi năng lực sản xuất, đa dạng hóa các hình thức sở hữu gắn với vai trò chủ đạo của kinh tế nhà nước.'
+      'Cảm ơn phần trả lời của đại biểu. Phương án B là hoàn toàn chính xác.\n\nDưới góc độ lý luận, bản chất kinh tế của nền dân chủ xã hội chủ nghĩa không hình thành từ "hư vô" theo mong muốn chủ quan, mà nó là sự kế thừa và phát triển mọi thành tựu nhân loại đã tạo ra trong lịch sử, đồng thời lọc bỏ những nhân tố lạc hậu.\n\nĐể phát huy dân chủ xã hội chủ nghĩa ở Việt Nam hiện nay, Đảng ta chủ trương xây dựng, hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa tạo ra cơ sở kinh tế vững chắc.\n\nViệc tạo điều kiện cho kinh tế tư nhân phát triển chính là việc thực thi chủ trương: "thể chế hóa quan điểm của Đảng về phát triển đa dạng các hình thức sở hữu, thành phần kinh tế, loại hình doanh nghiệp, bảo hộ các quyền và lợi ích hợp pháp của chủ sở hữu tài sản thuộc các hình thức sở hữu". Do đó, cản trở sự phát triển hợp pháp của tư nhân (Phương án A) là đi ngược lại với việc phát huy dân chủ trong kinh tế.'
   },
   {
     id: 'scenario-2',
     code: 'HỒ SƠ NGHỊ TRƯỜNG SỐ 02',
-    title: 'Thực Thi Quyền Lực & Quy Chế Dân Chủ Ở Cơ Sở',
+    title: 'Vấn Đề Thực Thi Quyền Lực Và Dân Chủ Cơ Sở',
     topic: 'Chương 4: Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa',
     caseBackground: 
-      'Nhằm nhanh chóng đạt chỉ tiêu hoàn thành tuyến đường liên xã kiểu mẫu trước lễ kỷ niệm cấp huyện, Chủ tịch UBND xã Y đã tự quyết định phê duyệt phương án chi ngân sách đối ứng và huy động đóng góp tự nguyện của nhân dân mà không qua khâu hội nghị lấy ý kiến cộng đồng dân cư.',
+      'Chủ tịch Ủy ban nhân dân cấp xã quyết định sử dụng một khoản ngân sách xã hội hóa của địa phương để thi công một công trình công cộng mà không thông qua việc lấy ý kiến nhân dân. Khi người dân có ý kiến phản ánh, vị Chủ tịch xã giải thích:',
     question: 
-      'Đứng trước đơn chất vấn của cử tri tại kỳ họp HĐND, Chủ tọa và Hội đồng cần xác định tính hợp hiến, hợp pháp của hành vi trên như thế nào?',
+      'Đứng trước ý kiến giải thích của Chủ tịch xã và phản ánh của người dân, Đại biểu hãy quyết định phương án đúng đắn theo quy chế dân chủ cơ sở:',
     options: [
       {
         id: 'A',
         label: 'PHƯƠNG ÁN A',
-        text: 'Ủng hộ Chủ tịch xã tự quyết vì mục tiêu công vụ vì tiến độ và lợi ích chung của địa phương, thủ tục lấy ý kiến dân có thể bổ sung sau khi công trình hoàn thành.',
-        subtext: 'Biện minh cho sự chuyên quyền hành chính nhân danh tính cấp bách của nhiệm vụ kinh tế - xã hội.'
+        text: '"Nhân dân đã bầu tôi làm người đứng đầu, tức là nhân dân đã ủy quyền quản lý. Để đảm bảo tính hiệu quả và nhanh chóng, tôi có quyền quyết định trực tiếp mà không cần thiết phải tổ chức lấy ý kiến tốn thời gian."',
+        subtext: 'Quan điểm Chủ tịch xã: Đã được bầu làm người đứng đầu thì tự quyết trực tiếp'
       },
       {
         id: 'B',
         label: 'PHƯƠNG ÁN B',
-        text: 'Khẳng định việc tự quyết bỏ qua quy trình lấy ý kiến nhân dân là vi phạm nghiêm trọng quyền làm chủ ở cơ sở; trái với phương châm hiến định: "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng".',
-        subtext: 'Bảo vệ giá trị cốt lõi của nền dân chủ XHCN - Quyền lực nhà nước thuộc về nhân dân từ cấp cơ sở.'
+        text: '"Việc cán bộ tự quyết định mà bỏ qua khâu lấy ý kiến cộng đồng dân cư đối với các công trình có nguồn vốn đóng góp của dân là vi phạm quyền làm chủ của nhân dân và trái với quy chế dân chủ cơ sở."',
+        subtext: 'Ý kiến của người dân: Tự quyết bỏ qua ý kiến dân là vi phạm quy chế dân chủ cơ sở'
       }
     ],
     correctOptionId: 'B',
-    doctrineQuote: '“Trong mọi công việc của Đảng và Nhà nước, phải luôn quán triệt sâu sắc quan điểm "dân là gốc"; thật sự tin tưởng, tôn trọng và phát huy quyền làm chủ của nhân dân.”',
-    constitutionalCitation: 'Luật Thực hiện Dân chủ ở cơ sở năm 2022 & Văn kiện Đại hội XIII',
+    doctrineQuote: '“Dân là gốc, là chủ, dân làm chủ. Cơ quan, tổ chức phải thực hiện phương châm "dân biết, dân bàn, dân làm, dân kiểm tra".”',
+    constitutionalCitation: 'Luật Thực hiện Dân chủ ở cơ sở & Văn kiện Đại hội XIII của Đảng',
     academicExplanation: 
-      'Nền dân chủ XHCN xác lập nguyên tắc quyền lực nhà nước là do nhân dân ủy quyền. Mọi chính sách liên quan trực tiếp đến quyền và nghĩa vụ của người dân ở cơ sở đều bắt buộc phải tuân thủ cơ chế dân chủ trực tiếp. Tự quyết độc đoán nhân danh "lợi ích công" là biểu hiện của tệ quan liêu xa dân, làm suy giảm niềm tin chính trị.'
+      'Rất cảm ơn đại biểu. Ý kiến của nhân dân (Phương án B) là hoàn toàn đúng đắn.\n\nTrong nền dân chủ xã hội chủ nghĩa, quyền làm chủ của nhân dân là tất cả quyền lực đều thuộc về nhân dân, dân là gốc, là chủ, dân làm chủ.\n\nViệc Chủ tịch xã tự ý quyết định là vi phạm nghiêm trọng nguyên tắc hoạt động của các cơ quan, tổ chức là phải thực hiện phương châm "dân biết, dân bàn, dân làm, dân kiểm tra".\n\nĐảng ta đã khẳng định: "Mọi đường lối, chính sách của Đảng và pháp luật của Nhà nước đều vì lợi ích của nhân dân, có sự tham gia ý kiến của nhân dân". Hành vi của cán bộ trong tình huống trên là biểu hiện của sự lạm quyền, làm suy giảm động lực phát triển và đi ngược lại bản chất của nền dân chủ xã hội chủ nghĩa.'
   },
   {
     id: 'scenario-3',
     code: 'HỒ SƠ NGHỊ TRƯỜNG SỐ 03',
-    title: 'Trách Nhiệm Công Dân & Phát Huy Dân Chủ Trực Tiếp',
+    title: 'Vấn Đề Trách Nhiệm Cá Nhân Và Dân Chủ Trực Tiếp',
     topic: 'Chương 4: Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa',
     caseBackground: 
-      'Trường Đại học mở đợt khảo sát thường niên lấy ý kiến toàn thể sinh viên về chất lượng giảng dạy, cơ sở vật chất và quy chế học vụ. Một nhóm sinh viên cho rằng ý kiến của từng cá nhân là quá nhỏ bé và việc tham gia chỉ mang tính hình thức nên đã chọn cách bỏ phiếu hời hợt hoặc không tham gia.',
+      'Nhà trường triển khai một đợt khảo sát trực tuyến toàn diện nhằm lấy ý kiến sinh viên về chất lượng giảng dạy môn Lý luận chính trị và công tác quản lý của nhà trường. Trong sinh viên xuất hiện hai luồng ý kiến:',
     question: 
-      'Dưới góc độ lý luận Chủ nghĩa Xã hội Khoa học về sự kết hợp giữa Dân chủ đại diện và Dân chủ trực tiếp, nhận định nào sau đây là chuẩn mực?',
+      'Đứng trước hai luồng ý kiến trong sinh viên, Đại biểu hãy khẳng định nhận thức và hành động đúng đắn về dân chủ trực tiếp:',
     options: [
       {
         id: 'A',
         label: 'PHƯƠNG ÁN A',
-        text: 'Thái độ này là hợp lý vì sinh viên đã có Ban cán sự lớp và Hội sinh viên đại diện, dân chủ cá nhân trực tiếp không thể tác động đến quyết sách vĩ mô của nhà trường.',
-        subtext: 'Tuyệt đối hóa dân chủ đại diện, sinh ra tư tưởng thờ ơ, thụ động chính trị của công dân trẻ.'
+        text: 'Sinh viên không cần thiết phải đánh giá một cách nghiêm túc, chỉ cần làm cho có để đủ thủ tục điểm rèn luyện. Việc quản lý và nâng cao chất lượng là trách nhiệm của lãnh đạo nhà trường, ý kiến của sinh viên cá nhân không mang lại tác động gì đáng kể.',
+        subtext: 'Làm chiếu lệ cho đủ thủ tục, cho rằng ý kiến cá nhân không có tác động gì'
       },
       {
         id: 'B',
         label: 'PHƯƠNG ÁN B',
-        text: 'Sinh viên trực tiếp tham gia khảo sát với tinh thần trách nhiệm và xây dựng chính là thực thi hình thức dân chủ trực tiếp, rèn luyện văn hóa dân chủ và trực tiếp kiến tạo môi trường học tập.',
-        subtext: 'Phát huy năng lực làm chủ, kết hợp hài hòa giữa dân chủ trực tiếp và đại diện trong nhà trường XHCN.'
+        text: 'Mỗi sinh viên cần phải tham gia khảo sát một cách trung thực, trách nhiệm và thẳng thắn. Đây chính là quyền lợi và cũng là phương thức để sinh viên trực tiếp tham gia vào công tác quản lý, xây dựng môi trường giáo dục dân chủ.',
+        subtext: 'Tham gia trung thực, trách nhiệm để trực tiếp tham gia quản lý, xây dựng môi trường dân chủ'
       }
     ],
     correctOptionId: 'B',
-    doctrineQuote: '“Dân chủ không phải là một khẩu hiệu suông, mà là một hiện thực sinh động, gắn bó hữu cơ với trách nhiệm, nghĩa vụ công dân và kỷ cương pháp luật.”',
-    constitutionalCitation: 'Chương trình Giáo dục Lý luận Chính trị CNXHKH - Bộ Giáo dục và Đào tạo',
+    doctrineQuote: '“Thông qua dân chủ trực tiếp, nhân dân bằng hành động trực tiếp của mình thực hiện quyền làm chủ nhà nước và xã hội. Mọi công dân đều có quyền tham gia quản lý xã hội bằng nhiều cách khác nhau, tùy theo trách nhiệm và nghĩa vụ của mình.”',
+    constitutionalCitation: 'Giáo trình Chủ nghĩa Xã hội Khoa học - Bộ Giáo dục và Đào tạo',
     academicExplanation: 
-      'Dân chủ XHCN không dừng lại ở việc bầu ra cơ quan đại diện mà đòi hỏi mỗi công dân phải trực tiếp tham gia vào đời sống chính trị - xã hội thông qua các thiết chế dân chủ trực tiếp. Sự tham gia tự giác của sinh viên phản ánh phẩm chất làm chủ tập thể, rèn luyện năng lực chính trị trước khi bước vào đời sống nhà nước rộng lớn hơn.'
+      'Xin cảm ơn đại biểu. Sự lựa chọn Phương án B thể hiện nhận thức chính trị rất đúng đắn.\n\nDưới góc độ lý luận, bản chất dân chủ xã hội chủ nghĩa ở Việt Nam được thực hiện thông qua các hình thức dân chủ gián tiếp và dân chủ trực tiếp.\n\nViệc sinh viên điền phiếu khảo sát chính là biểu hiện sinh động của hình thức dân chủ trực tiếp. Đây là hình thức thông qua đó, nhân dân (sinh viên) "bằng hành động trực tiếp của mình thực hiện quyền làm chủ nhà nước và xã hội", được thông tin về hoạt động của tổ chức, được bàn bạc về công việc của cộng đồng.\n\n"Mọi công dân đều có quyền tham gia quản lý xã hội bằng nhiều cách khác nhau, tùy theo trách nhiệm và nghĩa vụ của mình". Nếu sinh viên chọn Phương án A, tức là tự từ bỏ quyền làm chủ của mình, đồng thời làm mất đi sức mạnh trí tuệ của cá nhân đối với sự phát triển chung của tập thể.'
   }
 ];
 

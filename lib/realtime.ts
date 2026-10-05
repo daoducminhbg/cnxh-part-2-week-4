@@ -56,23 +56,35 @@ export class RealtimeParliamentHub {
 
   constructor() {
     if (typeof window !== 'undefined') {
-      // Load customized scenarios from localStorage if present and auto-cleanse any spoilers
+      // Auto-update to official syllabus scenarios
+      const SCENARIOS_VERSION_KEY = 'cnxh_scenarios_version';
+      const OFFICIAL_SCENARIOS_VER = '2026_10_05_official_v3';
+
       try {
-        const savedScenarios = localStorage.getItem('cnxh_custom_scenarios');
-        if (savedScenarios) {
-          const parsed = JSON.parse(savedScenarios);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            const cleaned = parsed.map((sc: Scenario) => ({
-              ...sc,
-              options: sc.options.map((opt) => ({
-                ...opt,
-                label: opt.label.replace(/\s*\(CHÍNH XÁC\)/gi, '').trim(),
-              })),
-            }));
-            this.state.scenarios = cleaned;
-            this.state.totalScenarios = cleaned.length;
-            this.state.currentScenarioId = cleaned[0].id;
-            localStorage.setItem('cnxh_custom_scenarios', JSON.stringify(cleaned));
+        const savedVer = localStorage.getItem(SCENARIOS_VERSION_KEY);
+        if (savedVer !== OFFICIAL_SCENARIOS_VER) {
+          localStorage.removeItem('cnxh_custom_scenarios');
+          localStorage.setItem(SCENARIOS_VERSION_KEY, OFFICIAL_SCENARIOS_VER);
+          this.state.scenarios = DEFAULT_SCENARIOS;
+          this.state.totalScenarios = DEFAULT_SCENARIOS.length;
+          this.state.currentScenarioId = DEFAULT_SCENARIOS[0].id;
+        } else {
+          const savedScenarios = localStorage.getItem('cnxh_custom_scenarios');
+          if (savedScenarios) {
+            const parsed = JSON.parse(savedScenarios);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+              const cleaned = parsed.map((sc: Scenario) => ({
+                ...sc,
+                options: sc.options.map((opt) => ({
+                  ...opt,
+                  label: opt.label.replace(/\s*\(CHÍNH XÁC\)/gi, '').trim(),
+                })),
+              }));
+              this.state.scenarios = cleaned;
+              this.state.totalScenarios = cleaned.length;
+              this.state.currentScenarioId = cleaned[0].id;
+              localStorage.setItem('cnxh_custom_scenarios', JSON.stringify(cleaned));
+            }
           }
         }
       } catch {
